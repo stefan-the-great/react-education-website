@@ -1,0 +1,102 @@
+#container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #faf5fc;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    outline: none;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    font-size: 62px;
+}
+
+p {
+    color: dimgray;
+    font-size: 16px;
+}
+
+section {
+    /* height: 100vh; */
+    padding: 0px 140px;
+}
+
+.gradient-btn {
+    cursor: pointer;
+    padding: 10px 30px;
+    color: white;
+    font-weight: 500;
+    background: linear-gradient(to bottom right, #ba73f7, #f78bac);
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.gradient-btn:hover {
+    box-shadow: 0px 0px 10px -4px dimgray;
+    scale: 1.05;
+}
+
+
+/* HERO SECTION */
+
+#hero {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    /* background-color: aqua; */
+    gap: 40px;
+    margin-top: 30px;
+}
+
+#hero .left {
+    margin: 50px 0px 0px;
+    width: 500px;
+}
+
+#hero .left h1 {
+    color: rgb(20, 20, 20);
+    /* width: 500px; */
+    margin-bottom: 40px;
+    line-height: 1.1;
+}
+
+#hero .left .action-buttons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+}
+
+#hero .right {
+    height: fit-content;
+    padding: 0;
+}
+
+
+/* COURSES SECTION */
+
+#brands,
+#courses {
+    background: linear-gradient(to bottom right, #ba73f7de 50%, #f78bac);
+}
+
+#brands {
+    height: 20vh;
+    transform: translateY(-8px);
+}
+
+
+/* COURSES SECTION */
+
+#courses {
+    height: 70vh;
+}
