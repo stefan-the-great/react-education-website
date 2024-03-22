@@ -47,7 +47,11 @@ function App() {
 
 
             <section id='search-courses'>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea blanditiis perferendis tempore omnis nesciunt voluptas odio natus quam optio earum animi pariatur, accusantium aspernatur temporibus ex corrupti fuga officiis quia?
+                <h2>Search Courses</h2>
+                <form action="" method="">
+                    <input type="search" name="course-search" id="course-search" placeholder='Search for over 50+ courses' />
+                    <button type="" className='gradient-btn'>Search</button>
+                </form>
             </section>
             
             <section id='courses'>
