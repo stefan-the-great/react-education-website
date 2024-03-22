@@ -2,10 +2,14 @@ header {
     top: 0;
     left: 0;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     position: sticky;
-    margin: 0px 180px;
-    padding: 40px 0px;
+    /* margin: 0px 180px; */
+    padding: 10px 180px;
+    background: #faf5fc;
+    /* background: red; */
+    z-index: 10;
 }
 
 .navbar a {
