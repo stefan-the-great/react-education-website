@@ -24,7 +24,7 @@ function Navbar() {
             <ul>
                 <li><a href="#search-courses">Courses</a></li>
                 <li><a href="#teachers">Teachers</a></li>
-                <li><a href="#offers">Offers</a></li>
+                <li><a href="#popular-courses">Offers</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
