@@ -61,7 +61,6 @@ function App() {
                 <img src={Apple} style={{stroke: '#e8e1ef'}} alt="" />
             </section>
 
-
             <section id='search-courses'>
                 <h2>Search Courses</h2>
                 <form action="" method="">
@@ -249,6 +248,8 @@ function App() {
                 </div>
 
             </section>
+
+            <section id="teachers"></section>
         </div>
     );
 }

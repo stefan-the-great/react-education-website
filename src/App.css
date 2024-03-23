@@ -392,3 +392,10 @@ section {
     aspect-ratio: 1/1;
     border-radius: 50%;
 }
+
+
+/* TEACHERS SECTION */
+
+#teachers {
+    height: 100vh;
+}
