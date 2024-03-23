@@ -10,6 +10,7 @@ header {
     background: #faf5fc;
     /* background: red; */
     z-index: 10;
+    transition: all 0.5s;
 }
 
 .navbar a {
