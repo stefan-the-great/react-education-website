@@ -45,6 +45,7 @@ section {
     background: linear-gradient(to bottom right, #ba73f7, #f78bac);
     border-radius: 10px;
     transition: all 0.5s;
+    width: max-content;
 }
 
 .gradient-btn:hover {
@@ -205,7 +206,7 @@ section {
     line-height: 1.2;
 }
 
-#color-word {
+.color-word {
     color: #ba73f7;
 }
 
@@ -398,4 +399,59 @@ section {
 
 #teachers {
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+#teachers .left {
+    width: 38vw;
+}
+
+#teachers .left .perks {
+    margin-top: 30px;
+}
+
+#teachers .left .perks ul {
+    display: grid;
+    grid-template-columns: auto auto;
+    list-style: disc;
+    font-size: 16px;
+    margin-left: 25px;
+}
+
+#teachers .left .perks ul li::marker {
+    font-size: 22px;
+    color: #ba73f7;
+}
+
+#teachers .left .action-btn {
+    margin-top: 40px;
+}
+
+#teachers .right .outer-wrapper {
+    border-radius: 0px 0px 50% 50%;
+    width: 400px;
+    aspect-ratio: 1/1.2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 4px dashed #ba73f7;
+}
+
+#teachers .right .outer-wrapper .inner-wrapper {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    margin: 10px;
+    background: linear-gradient(to bottom right, #ba73f7, #f78bac);
+    border-radius: 0px 0px 50% 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#teachers .right .outer-wrapper .inner-wrapper img {
+    height: 95%;
 }

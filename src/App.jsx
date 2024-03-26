@@ -26,6 +26,8 @@ import { GoDotFill } from "react-icons/go";
 import { FaStar } from "react-icons/fa";
 import { BsPerson } from "react-icons/bs";
 
+import TeacherPic from './images/teacher-pic.png'
+
 
 
 
@@ -81,7 +83,7 @@ function App() {
                     </div>
                 </div>
                 <div className="right">
-                    <h2><span id='color-word' style={{color: '#ba73f7'}}>Benefits</span> From Our Online Learning</h2>
+                    <h2><span className='color-word'>Benefits</span> From Our Online Learning</h2>
                     <div className="row">
                         <div className="icon">
                             <PiGraduationCap fontSize={'36px'} color='white' />
@@ -249,7 +251,37 @@ function App() {
 
             </section>
 
-            <section id="teachers"></section>
+            <section id="teachers">
+                <div className="left">
+                    <h2>If You Are A Certified Teacher Then <span className='color-word' >Become An Instructor</span></h2>
+                    <p>Unlock the opportunity to inspire and educate by joining our team of instructors. If you're a certified teacher, elevate your impact and share your expertise with learners worldwide.</p>
+                    <div className="perks">
+                        <h2>Enjoy Many Perks</h2>
+                        <ul>
+                            <li>Global Impact</li>
+                            <li>Creative Freedom</li>
+                            <li>Flexible Schedule</li>
+                            <li>Monetize Your Expertise</li>
+                            <li>Innovative Teaching Tools</li>
+                            <li>Professional Development</li>
+                            <li>Recognition And Reputation</li>
+                            <li>Networking Opportunities</li>
+                        </ul>
+                    </div>
+                    <div className="action-btn">
+                        <div id="become-instructor-btn" className='gradient-btn'>
+                            <a href="#courses">Become an Instructor</a>
+                        </div>
+                    </div>
+                </div>
+                <div className="right">
+                    <div className="outer-wrapper">
+                        <div className="inner-wrapper">
+                            <img src={TeacherPic} alt="" />
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
     );
 }
