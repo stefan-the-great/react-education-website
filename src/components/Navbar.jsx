@@ -2,9 +2,9 @@ import React from 'react'
 import './navbar.css'
 
 function Navbar() {
-  var prevScrollpos = window.pageYOffset;
+  var prevScrollpos = window.scrollY;
   window.onscroll = function() {
-  var currentScrollPos = window.pageYOffset;
+  var currentScrollPos = window.scrollY;
     if (prevScrollpos > currentScrollPos) {
       document.getElementById("header").style.top = "0";
     } else {

@@ -480,3 +480,75 @@ section {
 #testimonials p {
     max-width: 38vw;
 }
+
+#testimonials .carosel-container {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    gap: 40px;
+    max-width: 80vw;
+    /* overflow-x: scroll; */
+}
+
+#testimonials .carosel-container .block {
+    background: white;
+    border-radius: 20px;
+    min-width: 360px;
+    height: fit-content;
+    padding: 10px;
+}
+
+#testimonials .carosel-container .block h3 {
+    color: #ba73f7;
+    font-size: 18px;
+}
+
+#testimonials .carosel-container .block p {
+    color: dimgray;
+    text-align: left;
+}
+
+#testimonials .carosel-container .block .top {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* padding: 10px; */
+    margin-left: 10px;
+    gap: 20px;
+}
+
+#testimonials .carosel-container .block .top img {
+    height: 60px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    border: 0.5px solid dimgray;
+}
+
+#testimonials .carosel-container .block .top p {
+    font-size: 12px;
+}
+
+#testimonials .carosel-container .block .bottom {
+    /* width: fit-content; */
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#testimonials .carosel-controls {
+    color: 'white';
+    display: 'flex';
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+#testimonials .carosel-controls button {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 22px;
+}
