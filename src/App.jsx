@@ -282,6 +282,18 @@ function App() {
                     </div>
                 </div>
             </section>
+
+            <div id='bottom-section'>
+                <section id='testimonials'>
+                    <h2>Student Testimonials</h2>
+                    <p>Here's what our students have to say about their transformative learning experience: Real stories, real growth. Discover firsthand the impact our courses have had on their lives.</p>
+
+                </section>
+
+                <section id='contact'></section>
+
+                <section id='footer'></section>
+            </div>
         </div>
     );
 }
