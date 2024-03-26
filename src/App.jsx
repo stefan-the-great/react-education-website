@@ -45,7 +45,7 @@ function App() {
                     <p>Explore a transformative approach to skill development on our online learning platform. Uncover a new relm of learnng experiences and elevate your expertise in unique ways.</p>
                     <div className="action-buttons">
                         <div id="enroll-btn" className='gradient-btn'>
-                            <a href="#courses">Enroll Now</a>
+                            <a href="#popular-courses">Enroll Now</a>
                         </div>
                         <div id="whatIs-btn">
                             What's Etech?
@@ -358,7 +358,16 @@ function App() {
 
                 </section>
 
-                <section id='contact'></section>
+                <section id='contact'>
+                    <div className="box">
+                        <h2>Get In Touch!</h2>
+                        <p>Subscribe to get in touch and to enjoy discounts, promos and much more!</p>
+                        <form action="" method="">
+                            <input type="search" name="contact" id="contact-form" placeholder='Enter your email...' />
+                            <button type="" className='gradient-btn'>Subscribe</button>
+                        </form>
+                    </div>
+                </section>
 
                 <section id='footer'></section>
             </div>
