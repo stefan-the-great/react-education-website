@@ -17,6 +17,9 @@ ul {
 
 h1 {
     font-size: 62px;
+    @media only screen and (max-width: 600px) {
+        font-size: 38px;
+    }
 }
 
 h2 {
@@ -35,6 +38,9 @@ p {
 section {
     /* height: 100vh; */
     padding: 0px 140px;
+    @media only screen and (max-width: 600px) {
+        padding: 0px 50px;
+    }
 }
 
 .gradient-btn {

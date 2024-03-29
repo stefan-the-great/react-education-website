@@ -16,10 +16,10 @@ import Copyright from './components/Copyright';
 function App() {
     return (
         <div id='container'>
-            {/* <Navbar /> */}
+            <Navbar />
             <Hero />
-            {/* <Brands />
-            <SearchCourses />
+            <Brands />
+            {/* <SearchCourses />
             <Courses />
             <PopularCourses />
             <Tearchers />
