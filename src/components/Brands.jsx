@@ -4,7 +4,7 @@ import Microsoft from '../images/microsoft-logo.svg';
 import Codecov from '../images/codecov.svg';
 import Magicleap from '../images/magic-leap-seeklogo.svg';
 import Apple from '../images/apple.svg';
-import '../css/brands.css'
+import '../css/brands.scss'
 
 function Brands() {
   return (

@@ -1,0 +1,25 @@
+/* BRANDS SECTION */
+
+#brands {
+    background: linear-gradient(to bottom right, #ba73f7de 50%, #f78bac);
+    height: 20vh;
+    transform: translateY(-8px);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    @media only screen and (max-width: 600px) {
+        transform: none;
+        height: 10vh;
+        width: auto;
+        overflow: hidden;
+        // position: relative;
+        // padding: 10px 0px;
+    }
+    img {
+        width: 170px;
+        @media only screen and (max-width: 600px) {
+            width: 15vw;
+        }
+    }
+}
