@@ -1,5 +1,6 @@
 import React from 'react'
-import './navbar.css'
+import '../css/navbar.css'
+import { GiHamburgerMenu } from "react-icons/gi";
 
 function Navbar() {
   var prevScrollpos = window.scrollY;
@@ -28,6 +29,9 @@ function Navbar() {
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
+        <div className="icon" style={{display: 'none'}}>
+          <GiHamburgerMenu fontSize={30} cursor={'pointer'} />
+        </div>
     </header>
   )
 }

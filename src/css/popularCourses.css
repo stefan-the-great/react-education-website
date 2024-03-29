@@ -1,0 +1,155 @@
+/* POPULAR COURSES SECTION */
+
+#popular-courses {
+    padding-top: 50px;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(to bottom right, #ba73f7de 50%, #f78bac);
+}
+
+#popular-courses h2,
+#popular-courses p {
+    color: white;
+    text-align: center;
+    width: 38vw;
+    margin-bottom: 10px;
+}
+
+#popular-courses .card-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70vw;
+    height: fit-content;
+    gap: 30px;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+#popular-courses .card {
+    background: white;
+    border-radius: 30px;
+    width: 320px;
+    height: fit-content;
+    padding: 10px 10px 20px;
+    /* aspect-ratio: 3/4; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    transition: all 1s;
+    /* justify-content: center; */
+    /* height: 540px; */
+}
+
+#popular-courses .card:hover {
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);
+    scale: 1.05;
+    z-index: 10;
+}
+
+#popular-courses .card .thumbnail {
+    width: 100%;
+    aspect-ratio: 4/2.5;
+    /* margin: 10px; */
+    border-radius: 22px;
+}
+
+#popular-courses .card .tags {
+    margin: 25px 0px 5px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#popular-courses .card .tags .category {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ba73f780;
+    padding: 2px 5px;
+    border-radius: 5px;
+    color: #ba73f7;
+}
+
+#popular-courses .card .tags .category .text {
+    color: dimgray;
+    font-size: 12px;
+}
+
+#popular-courses .card .tags .rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background: #ba73f7;
+    color: white;
+    font-size: 12px;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+
+#popular-courses .card .title {
+    text-align: left;
+    width: 100%;
+}
+
+#popular-courses .card .title h3 {
+    /* margin-left: 20px; */
+    width: 60%;
+    font-size: 18px;
+    margin: 10px 0px;
+}
+
+#popular-courses .card .stats {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    font-size: 12px;
+}
+
+#popular-courses .card .stats .class-count,
+#popular-courses .card .stats .student-count {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+#popular-courses .card .stats .icon {
+    color: #ba73f7;
+}
+
+#popular-courses .card .details {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 0.5px solid #ba73f768;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+#popular-courses .card .details h3 {
+    font-size: 20px;
+}
+
+#popular-courses .card .details .instructor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #ba73f7;
+    font-weight: bold;
+}
+
+#popular-courses .card .details .instructor img {
+    width: 25px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}

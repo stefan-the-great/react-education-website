@@ -1,0 +1,37 @@
+/* SEARCH COURSES SECTION */
+
+#search-courses {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0px 30px;
+}
+
+#search-courses form {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#search-courses input {
+    width: 40vw;
+    height: 50px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0px 0px 10px -4px dimgray;
+    padding: 0px 40px;
+    font-size: 18px;
+}
+
+#search-courses button {
+    height: 50px;
+    outline: none;
+    font-size: 16px;
+    /* background: #ba73f7; */
+    border: none;
+    /* border-radius: 5px; */
+}

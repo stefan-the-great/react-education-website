@@ -5,10 +5,8 @@ header {
     align-items: center;
     justify-content: space-between;
     position: sticky;
-    /* margin: 0px 180px; */
     padding: 10px 180px;
     background: #faf5fc;
-    /* background: red; */
     z-index: 10;
     transition: all 0.5s;
 }
