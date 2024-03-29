@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/searchCourses.css'
+import '../css/searchCourses.scss'
 
 function SearchCourses() {
   return (
