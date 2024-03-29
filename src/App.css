@@ -280,14 +280,15 @@ section {
     align-items: center;
     flex-direction: column;
     cursor: pointer;
-    transition: all 0.5s;
+    transition: all 1s;
     /* justify-content: center; */
     /* height: 540px; */
 }
 
 #popular-courses .card:hover {
     box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);
-    /* scale: 1.005; */
+    scale: 1.05;
+    z-index: 10;
 }
 
 #popular-courses .card .thumbnail {
