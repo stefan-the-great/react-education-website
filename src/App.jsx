@@ -18,7 +18,7 @@ function App() {
         <div id='container'>
             <Navbar />
             <Hero />
-            <Brands />
+            {/* <Brands /> */}
             {/* <SearchCourses />
             <Courses />
             <PopularCourses />
