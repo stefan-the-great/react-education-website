@@ -1,7 +1,6 @@
 import './App.css';
 import Navbar from './components/Navbar';
 
-
 import Hero from './components/Hero';
 import Brands from './components/Brands';
 import SearchCourses from './components/SearchCourses';
@@ -17,9 +16,9 @@ import Copyright from './components/Copyright';
 function App() {
     return (
         <div id='container'>
-            <Navbar />
+            {/* <Navbar /> */}
             <Hero />
-            <Brands />
+            {/* <Brands />
             <SearchCourses />
             <Courses />
             <PopularCourses />
@@ -30,7 +29,7 @@ function App() {
                 <Contact />
                 <Footer />
                 <Copyright />
-            </div>
+            </div> */}
         </div>
     );
 }
