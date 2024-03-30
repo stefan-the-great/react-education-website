@@ -1,5 +1,5 @@
 import React from 'react'
-import '../css/copyright.css'
+import '../css/copyright.scss'
 
 function Copyright() {
   return (

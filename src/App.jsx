@@ -28,7 +28,7 @@ function App() {
                 <Testimonials />
                 <Contact />
                 <Footer />
-                {/* <Copyright /> */}
+                <Copyright />
             </div>
         </div>
     );
