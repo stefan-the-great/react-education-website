@@ -1,0 +1,156 @@
+/* POPULAR COURSES SECTION */
+
+#popular-courses {
+    padding-top: 50px;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(to bottom right, #ba73f7de 50%, #f78bac);
+    @media only screen and (max-width: 600px) {
+        height: auto;
+        width: auto;
+        padding: 50px 20px;
+    }
+    h2,
+    p {
+        color: white;
+        text-align: center;
+        width: 38vw;
+        margin-bottom: 10px;
+        @media only screen and (max-width: 600px) {
+            width: auto;
+        }
+    }
+    p {
+        @media only screen and (max-width: 600px) {
+            width: auto;
+            font-size: 12px;
+            // flex-direction: column-reverse;
+        }
+    }
+    .card-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 70vw;
+        height: fit-content;
+        gap: 30px;
+        margin-top: 50px;
+        padding: 20px;
+        @media only screen and (max-width: 600px) {
+            margin-top: 10px;
+            flex-direction: column;
+        }
+        .card {
+            background: white;
+            border-radius: 30px;
+            width: 320px;
+            height: fit-content;
+            padding: 10px 10px 20px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            cursor: pointer;
+            transition: all 1s;
+            @media only screen and (max-width: 600px) {
+                width: 300px;
+            }
+            &:hover {
+                box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3);
+                scale: 1.05;
+                z-index: 10;
+            }
+            .thumbnail {
+                width: 100%;
+                aspect-ratio: 4/2.5;
+                /* margin: 10px; */
+                border-radius: 22px;
+            }
+            .tags {
+                margin: 25px 0px 5px;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .category {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background: #ba73f780;
+                    padding: 2px 5px;
+                    border-radius: 5px;
+                    color: #ba73f7;
+                    .text {
+                        color: dimgray;
+                        font-size: 12px;
+                    }
+                }
+                .rating {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 5px;
+                    background: #ba73f7;
+                    color: white;
+                    font-size: 12px;
+                    padding: 2px 5px;
+                    border-radius: 5px;
+                }
+            }
+            .title {
+                text-align: left;
+                width: 100%;
+                h3 {
+                    /* margin-left: 20px; */
+                    width: 60%;
+                    font-size: 18px;
+                    margin: 10px 0px;
+                }
+            }
+            .stats {
+                display: flex;
+                width: 100%;
+                align-items: center;
+                justify-content: flex-start;
+                gap: 20px;
+                font-size: 12px;
+                .class-count,
+                .student-count {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 5px;
+                }
+                .icon {
+                    color: #ba73f7;
+                }
+            }
+            .details {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border-top: 0.5px solid #ba73f768;
+                margin-top: 10px;
+                padding-top: 10px;
+                h3 {
+                    font-size: 20px;
+                }
+                .instructor {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 10px;
+                    color: #ba73f7;
+                    font-weight: bold;
+                    img {
+                        width: 25px;
+                        aspect-ratio: 1/1;
+                        border-radius: 50%;
+                    }
+                }
+            }
+        }
+    }
+}
