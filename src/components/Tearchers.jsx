@@ -23,7 +23,7 @@ function Tearchers() {
             </div>
             <div className="action-btn">
                 <div id="become-instructor-btn" className='gradient-btn'>
-                    <a href="#courses">Become an Instructor</a>
+                    <a href="#/">Become an Instructor</a>
                 </div>
             </div>
         </div>

@@ -46,8 +46,8 @@ function Footer() {
         <div className="contact-links">
             <h3>Contact Us</h3>
             <ul>
-                <li><a href="tel:+94123456789" style={{fontSize: '7px'}}>+94 77 123 4567</a></li>
-                <li><a href="mailto:etechinfo@gmail.com" style={{fontSize: '7px'}}>etechinfo@gmail.com</a></li>
+                <li><a href="tel:+94123456789">+94 77 123 4567</a></li>
+                <li><a href="mailto:etechinfo@gmail.com">etechinfo@gmail.com</a></li>
             </ul>
         </div>
     </section>
