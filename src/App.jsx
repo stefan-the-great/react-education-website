@@ -20,11 +20,11 @@ function App() {
             <Hero />
             {/* <Brands /> */}
             <SearchCourses />
-            {/* <Courses />
+            {/* <Courses /> */}
             <PopularCourses />
-            <Tearchers />
+            {/* <Tearchers /> */}
 
-            <div id='bottom-section'>
+            {/* <div id='bottom-section'>
                 <Testimonials />
                 <Contact />
                 <Footer />

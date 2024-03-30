@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/popularCourses.css'
+import '../css/popularCourses.scss'
 import Person1 from '../images/person1.png';
 import Person2 from '../images/person2.png';
 import Person4 from '../images/person4.png';
