@@ -22,7 +22,7 @@ function App() {
             <SearchCourses />
             <Courses />
             <PopularCourses />
-            {/* <Tearchers /> */}
+            <Tearchers />
 
             {/* <div id='bottom-section'>
                 <Testimonials />

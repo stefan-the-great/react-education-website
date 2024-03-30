@@ -1,6 +1,6 @@
 import React from 'react'
 import TeacherPic from '../images/teacher-pic.png';
-import '../css/teachers.css'
+import '../css/teachers.scss'
 
 function Tearchers() {
   return (
