@@ -24,12 +24,12 @@ function App() {
             <PopularCourses />
             <Tearchers />
 
-            {/* <div id='bottom-section'>
+            <div id='bottom-section'>
                 <Testimonials />
                 <Contact />
-                <Footer />
-                <Copyright />
-            </div> */}
+                {/* <Footer />
+                <Copyright /> */}
+            </div>
         </div>
     );
 }

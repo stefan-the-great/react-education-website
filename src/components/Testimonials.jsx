@@ -7,7 +7,7 @@ import { FaStar } from "react-icons/fa";
 import { IoChevronBackOutline } from "react-icons/io5";
 import { IoChevronForward } from "react-icons/io5";
 
-import '../css/testimonials.css'
+import '../css/testimonials.scss'
 
 function Testimonials() {
   return (

@@ -1,0 +1,97 @@
+/* TESTIMONIALS SECTION */
+
+#testimonials {
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    @media only screen and (max-width: 600px) {
+        padding-top: 50px;
+    }
+    h2,
+    p {
+        text-align: center;
+        color: white;
+    }
+    p {
+        max-width: 38vw;
+        @media only screen and (max-width: 600px) {
+            max-width: none;
+        }
+    }
+    .carosel-container {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        gap: 40px;
+        max-width: 80vw;
+        @media only screen and (max-width: 600px) {
+            margin-top: 50px;
+            margin-bottom: 25px;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .block {
+            background: white;
+            border-radius: 20px;
+            min-width: 360px;
+            height: fit-content;
+            padding: 10px;
+            @media only screen and (max-width: 600px) {
+                min-width: 260px;
+                // max-width: none;
+            }
+            h3 {
+                color: #ba73f7;
+                font-size: 18px;
+            }
+            p {
+                color: dimgray;
+                text-align: left;
+                @media only screen and (max-width: 600px) {
+                    font-size: 12px;
+                }
+            }
+            .top {
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                /* padding: 10px; */
+                margin-left: 10px;
+                gap: 20px;
+                img {
+                    height: 60px;
+                    aspect-ratio: 1/1;
+                    border-radius: 50%;
+                    border: 0.5px solid dimgray;
+                }
+                p {
+                    font-size: 12px;
+                }
+            }
+            .bottom {
+                /* width: fit-content; */
+                margin-top: 10px;
+                margin-left: 10px;
+            }
+        }
+    }
+    .carosel-controls {
+        color: 'white';
+        display: 'flex';
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 30px;
+        button {
+            background: none;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            font-size: 22px;
+        }
+    }
+}
