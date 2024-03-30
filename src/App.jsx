@@ -27,8 +27,8 @@ function App() {
             <div id='bottom-section'>
                 <Testimonials />
                 <Contact />
-                {/* <Footer />
-                <Copyright /> */}
+                <Footer />
+                {/* <Copyright /> */}
             </div>
         </div>
     );
