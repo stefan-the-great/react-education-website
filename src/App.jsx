@@ -20,7 +20,7 @@ function App() {
             <Hero />
             {/* <Brands /> */}
             <SearchCourses />
-            {/* <Courses /> */}
+            <Courses />
             <PopularCourses />
             {/* <Tearchers /> */}
 

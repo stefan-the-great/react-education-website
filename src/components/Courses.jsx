@@ -9,7 +9,7 @@ import { GoBook } from "react-icons/go";
 import { IoPersonSharp } from "react-icons/io5";
 import { IoPlay } from "react-icons/io5";
 
-import '../css/courses.css'
+import '../css/courses.scss'
 
 function Courses() {
   return (
